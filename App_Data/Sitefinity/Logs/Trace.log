@@ -1,0 +1,579 @@
+----------------------------------------
+Timestamp: 8/1/2019 8:51:18 PM
+
+Message: Operation: 'ApplicationRestart'. Parameters: 'flags:Default;sendRestartApplicationSystemMessage:True'. Reason: 'LicenseUpdate'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Services.SystemManager: Boolean RestartApplication(Telerik.Sitefinity.Services.OperationReason, Telerik.Sitefinity.Services.SystemRestartFlags, Boolean)
+Telerik.Sitefinity.Licensing.LicenseState: Void InvalidateLicense(Boolean)
+Telerik.Sitefinity.Licensing.LicenseState: Void SaveLicense(System.String)
+Telerik.Sitefinity.Licensing.Web.UI.LicenseRegistration: Void SaveLicense()
+Telerik.Sitefinity.Licensing.Web.UI.LicenseRegistration: Void BtnUploadLicense_Click(System.Object, System.EventArgs)
+System.Web.UI.WebControls.LinkButton: Void OnClick(System.EventArgs)
+System.Web.UI.WebControls.LinkButton: Void RaisePostBackEvent(System.String)
+System.Web.UI.WebControls.LinkButton: Void System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(System.String)
+System.Web.UI.Page: Void RaisePostBackEvent(System.Web.UI.IPostBackEventHandler, System.String)
+System.Web.UI.Page: Void RaisePostBackEvent(System.Collections.Specialized.NameValueCollection)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequestWithNoAssert(System.Web.HttpContext)
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+ASP.sfres_telerik_sitefinity_resources_sitefinitydefault_aspx: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: Void ExecuteStepImpl(IExecutionStep)
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+PipelineStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult BeginProcessRequestNotification(System.Web.HttpContext, System.AsyncCallback)
+System.Web.HttpRuntime: System.Web.RequestNotificationStatus ProcessRequestNotificationPrivate(System.Web.Hosting.IIS7WorkerRequest, System.Web.HttpContext)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotificationHelper(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotification(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.UnsafeIISMethods: Void MgdIndicateCompletion(IntPtr, System.Web.RequestNotificationStatus ByRef)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotificationHelper(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotification(IntPtr, IntPtr, IntPtr, Int32)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:51:21 PM
+
+Message: Operation: 'ApplicationRestart'. Parameters: 'flags:Default;sendRestartApplicationSystemMessage:True'. Reason: 'LicenseUpdate'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Services.SystemManager: Boolean RestartApplication(Telerik.Sitefinity.Services.OperationReason, Telerik.Sitefinity.Services.SystemRestartFlags, Boolean)
+Telerik.Sitefinity.Licensing.LicenseState: Void InvalidateLicense(Boolean)
+Telerik.Sitefinity.Licensing.Web.UI.LicenseRegistration: Void SaveLicense()
+Telerik.Sitefinity.Licensing.Web.UI.LicenseRegistration: Void BtnUploadLicense_Click(System.Object, System.EventArgs)
+System.Web.UI.WebControls.LinkButton: Void OnClick(System.EventArgs)
+System.Web.UI.WebControls.LinkButton: Void RaisePostBackEvent(System.String)
+System.Web.UI.WebControls.LinkButton: Void System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(System.String)
+System.Web.UI.Page: Void RaisePostBackEvent(System.Web.UI.IPostBackEventHandler, System.String)
+System.Web.UI.Page: Void RaisePostBackEvent(System.Collections.Specialized.NameValueCollection)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequestWithNoAssert(System.Web.HttpContext)
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+ASP.sfres_telerik_sitefinity_resources_sitefinitydefault_aspx: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: Void ExecuteStepImpl(IExecutionStep)
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+PipelineStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult BeginProcessRequestNotification(System.Web.HttpContext, System.AsyncCallback)
+System.Web.HttpRuntime: System.Web.RequestNotificationStatus ProcessRequestNotificationPrivate(System.Web.Hosting.IIS7WorkerRequest, System.Web.HttpContext)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotificationHelper(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotification(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.UnsafeIISMethods: Void MgdIndicateCompletion(IntPtr, System.Web.RequestNotificationStatus ByRef)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotificationHelper(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotification(IntPtr, IntPtr, IntPtr, Int32)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:53:51 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Security.Data.OpenAccessProfileProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator+<>c__DisplayClass43_0: Void <EnsureModelReset>b__0()
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void InstallDefaults()
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean RegisterRoutes()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void InnerInvoke()
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.Tasks.Task: Void ExecutionContextCallback(System.Object)
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.Tasks.Task: Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()
+System.Threading._ThreadPoolWaitCallback: Boolean PerformWaitCallback()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:53:51 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:53:55 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:53:55 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:53:55 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:53:56 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:53:57 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:01 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Modules.Libraries.Data.OpenAccessLibrariesProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator+<>c__DisplayClass43_0: Void <EnsureModelReset>b__0()
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Services.SystemManager: Telerik.Sitefinity.Services.IModule InitializeModule(Telerik.Sitefinity.Services.ModuleSettings, Telerik.Sitefinity.Services.InstallContext, ModuleVersionInfo, System.Nullable`1[System.Boolean], Boolean)
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean RegisterRoutes()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void InnerInvoke()
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.Tasks.Task: Void ExecutionContextCallback(System.Object)
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.Tasks.Task: Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()
+System.Threading._ThreadPoolWaitCallback: Boolean PerformWaitCallback()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:01 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:02 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:03 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:04 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:05 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:07 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:09 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:10 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:11 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:12 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:13 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:14 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:15 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:17 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:17 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:18 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:18 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:19 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:21 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:22 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:22 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:27 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Modules.Ecommerce.Catalog.Data.OpenAccessCatalogDataProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator+<>c__DisplayClass43_0: Void <EnsureModelReset>b__0()
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Services.SystemManager: Telerik.Sitefinity.Services.IModule InitializeModule(Telerik.Sitefinity.Services.ModuleSettings, Telerik.Sitefinity.Services.InstallContext, ModuleVersionInfo, System.Nullable`1[System.Boolean], Boolean)
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean RegisterRoutes()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void InnerInvoke()
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.Tasks.Task: Void ExecutionContextCallback(System.Object)
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.Tasks.Task: Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()
+System.Threading._ThreadPoolWaitCallback: Boolean PerformWaitCallback()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:27 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:30 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:31 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Security.Data.OpenAccessProfileProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator+<>c__DisplayClass43_0: Void <EnsureModelReset>b__0()
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Services.SystemManager: Telerik.Sitefinity.Services.IModule InitializeModule(Telerik.Sitefinity.Services.ModuleSettings, Telerik.Sitefinity.Services.InstallContext, ModuleVersionInfo, System.Nullable`1[System.Boolean], Boolean)
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean RegisterRoutes()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void InnerInvoke()
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.Tasks.Task: Void ExecutionContextCallback(System.Object)
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.Tasks.Task: Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()
+System.Threading._ThreadPoolWaitCallback: Boolean PerformWaitCallback()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:31 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:33 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:34 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:35 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:36 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:37 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:38 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:39 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:41 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:54:59 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Publishing.Data.OpenAccessPublishingPointDynamicTypeProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator: Void EnsureModelReset()
+Telerik.Sitefinity.Data.Metadata.OpenAccessMetaDataProvider: Void CommitTransaction(Boolean)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_05206ebb99e6401fbcdf5be7c2508da1: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <CommitTransaction_DelegateImplementation>__36(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+Telerik.Sitefinity.Data.DataEventsCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_05206ebb99e6401fbcdf5be7c2508da1: Void CommitTransaction(Boolean)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_05206ebb99e6401fbcdf5be7c2508da1: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <CommitTransaction_DelegateImplementation>__35(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+Telerik.Sitefinity.Data.DataEventsCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_05206ebb99e6401fbcdf5be7c2508da1: Void CommitTransaction()
+Telerik.Sitefinity.Data.ManagerBase`1: Void SaveChanges(System.String)
+Telerik.Sitefinity.Data.ManagerBase`1: Void SaveChanges()
+Telerik.Sitefinity.Publishing.PublishingPoints.PublishingPointFactory: Void CreatePublishingPointDataItem(System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Publishing.Model.IDefinitionField], Telerik.Sitefinity.Publishing.Model.IPublishingPoint, Telerik.Sitefinity.Data.Metadata.MetadataManager)
+Telerik.Sitefinity.Forums.ForumsModule: Void CreateForumPublishingPoint()
+Telerik.Sitefinity.Forums.ForumsModule: Void ConfigurePublishing()
+Telerik.Sitefinity.Publishing.PublishingModule: Void Bootstrapper_Initialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+System.EventHandler`1: Void Invoke(System.Object, TEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Void OnInitialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void InnerInvoke()
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.Tasks.Task: Void ExecutionContextCallback(System.Object)
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.Tasks.Task: Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()
+System.Threading._ThreadPoolWaitCallback: Boolean PerformWaitCallback()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:55:00 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Publishing.Data.OpenAccessPublishingPointDynamicTypeProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator+<>c__DisplayClass43_0: Void <EnsureModelReset>b__0()
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Services.Search.SearchModule: Void Bootstrapper_Initialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+System.EventHandler`1: Void Invoke(System.Object, TEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Void OnInitialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void InnerInvoke()
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.Tasks.Task: Void ExecutionContextCallback(System.Object)
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.Tasks.Task: Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()
+System.Threading._ThreadPoolWaitCallback: Boolean PerformWaitCallback()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/1/2019 8:55:08 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/2/2019 1:47:12 PM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider;Telerik.Sitefinity.DynamicModules.Builder.Data.OpenAccessModuleBuilderDataProvider'. User: 'system'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator+<>c__DisplayClass43_0: Void <EnsureModelReset>b__0()
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.DynamicModules.Builder.Install.ModuleInstaller: Void InstallModule(Telerik.Sitefinity.DynamicModules.Builder.Model.DynamicModule, Boolean, Boolean)
+Telerik.Sitefinity.DynamicModules.Builder.DynamicStructureTransfer: Void ImportCompleted()
+Telerik.Sitefinity.Packaging.Package.PackageTransferBase`2+<>c: Void <ImportFromDirectory>b__33_0(Telerik.Sitefinity.Packaging.Structure.IStructureTransfer)
+System.Collections.Generic.List`1: Void ForEach(System.Action`1[T])
+Telerik.Sitefinity.Packaging.Package.PackageTransferBase`2: Void ImportFromDirectory(System.IO.DirectoryInfo, Telerik.Sitefinity.Packaging.Package.IImportConfiguration)
+Telerik.Sitefinity.Packaging.Package.Addon.AddonPackageTransfer: Void Import(Telerik.Sitefinity.Packaging.Package.Addon.IAddonImportConfiguration)
+Telerik.Sitefinity.Packaging.Package.Addon.AddonPackageTransfer: Void TryImportAddonInternal(Telerik.Sitefinity.Packaging.Model.Addon, System.IO.FileInfo)
+Telerik.Sitefinity.Packaging.Package.Addon.AddonPackageTransfer: System.Collections.Generic.IEnumerable`1[Telerik.Sitefinity.Packaging.Model.Addon] UpdateAddonsFromInstalledNugetPackages()
+Telerik.Sitefinity.Packaging.PackagingModule: Void <Load>b__7_0(System.Object[])
+Telerik.Sitefinity.Services.SystemManager: Void RunWithElevatedPrivilege(RunWithElevatedPrivilegeDelegate, System.Object[], System.String)
+Telerik.Sitefinity.Packaging.PackagingModule: Void Load()
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean RegisterRoutes()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void InnerInvoke()
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.Tasks.Task: Void ExecutionContextCallback(System.Object)
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.Tasks.Task: Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()
+System.Threading._ThreadPoolWaitCallback: Boolean PerformWaitCallback()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/2/2019 1:47:15 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/2/2019 1:58:41 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/2/2019 3:43:56 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/2/2019 4:19:57 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 8/2/2019 8:07:23 PM
+
+Message: Usage tracking configuration could not be retrieved due to the following exception Response status code does not indicate success: 404 (Not Found)..
+
+
+----------------------------------------
